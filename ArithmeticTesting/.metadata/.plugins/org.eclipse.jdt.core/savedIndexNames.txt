@@ -1,0 +1,1 @@
+INDEX VERSION 1.129+D:\EPAM Pre-Production\JAVA\ArithmeticTesting\.metadata\.plugins\org.eclipse.jdt.core

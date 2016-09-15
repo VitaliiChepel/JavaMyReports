@@ -1,0 +1,28 @@
+!SESSION 2016-09-15 08:17:00.814 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product D:\EPAM Pre-Production\JAVA\ArithmeticTesting\src\main\java\ArithmeticOperation\ArithmeticOperations.java
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product D:\EPAM Pre-Production\JAVA\ArithmeticTesting\src\main\java\ArithmeticOperation\ArithmeticOperations.java
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-09-15 08:17:41.739
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Витал'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-09-15 15:06:48.137 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product D:\EPAM Pre-Production\JAVA\ArithmeticTesting\src\main\java\ArithmeticOperation\ArithmeticOperations.java
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product D:\EPAM Pre-Production\JAVA\ArithmeticTesting\src\main\java\ArithmeticOperation\ArithmeticOperations.java
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-09-15 15:07:26.877
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Витал'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

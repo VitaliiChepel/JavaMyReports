@@ -150,7 +150,7 @@ public class Notebook {
                 ", secondMobilePhone='" + secondMobilePhone + '\'' +
                 ", email='" + email + '\'' +
                 ", skype='" + skype + '\'' +
-                ", address='" + address.toString() + '\'' +
+                ", address='" + address + '\'' +
                 ", creationNoteDate='" + creationNoteDate + '\'' +
                 ", lastChangeDate='" + lastChangeDate + '\'' +
                 '}';

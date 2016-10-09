@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--xsd -->
+
+<customer>
+    <list>
+        <item id_cs="1">
+            <description/>
+            <f_name>Igor</f_name>
+            <l_name>Petrenko</l_name>
+            <discount>1</discount>
+            <license>ВАА012734</license>
+        </item>
+        <item id_cs="2">
+            <description/>
+            <f_name>Oleg</f_name>
+            <l_name>Ivanov</l_name>
+            <discount>1</discount>
+            <license>АСВ498173</license>
+        </item>
+        <item id_cs="3">
+            <description/>
+            <f_name>Anna</f_name>
+            <l_name>Dovlat</l_name>
+            <discount>0</discount>
+            <license>ПАР392819</license>
+        </item>
+        <item id_cs="4">
+            <description/>
+            <f_name>Olga</f_name>
+            <l_name>Petrova</l_name>
+            <discount>1</discount>
+            <license>КАВ378492</license>
+        </item>
+    </list>
+</customer>
+
+

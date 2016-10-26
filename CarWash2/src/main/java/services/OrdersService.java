@@ -31,17 +31,7 @@ public class OrdersService {
        return dao.findByPrice(id);
   }
     
-//	public List<Orders> getSubjectsByParameters(String substringOfSubjectName, int minCredits, int maxCredits) {
-//		return dao.findByParameters(substringOfSubjectName, minCredits, maxCredits);
-//	}
 
-//	public List<Subject> getSubjectsWithReducedCredits(int credits, int reducer) {
-//    	List<Subject> subjectList = dao.findByParameters("", credits, 150);
-//    	for(Subject sub : subjectList){
-//			sub.setCredits(sub.getCredits() - reducer);
-//		}
-//		return subjectList;
-//    }
 	
 	public List <Orders> getOrdersWithDiscount( int minValue, int discount){
 		List<Orders> list = dao.findByPrice(minValue);

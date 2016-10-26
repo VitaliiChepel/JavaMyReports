@@ -1,0 +1,33 @@
+
+<!DOCTYPE web-app PUBLIC
+"-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" 
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!-- <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" -->
+<!-- 	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://java.sun.com/xml/ns/javaee" -->
+<!-- 	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd http://java.sun.com/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee" -->
+<!-- 	version="2.4"> -->
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>ShowingAllOrders</servlet-name>
+		<servlet-class>controller.ShowingAllOrders</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GettingOrdersWithDiscount</servlet-name>
+		<servlet-class>controller.GettingOrdersWithDiscount</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowingAllOrders</servlet-name>
+		<url-pattern>/ShowingAllOrders</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GettingOrdersWithDiscount</servlet-name>
+		<url-pattern>/GettingOrdersWithDiscount</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
+

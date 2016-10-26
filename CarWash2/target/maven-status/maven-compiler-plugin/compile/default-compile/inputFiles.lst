@@ -1,0 +1,10 @@
+D:\EPAM Pre-Production\Eclipse EE\CarWash2\src\main\java\controller\GettingOrdersWithDiscount.java
+D:\EPAM Pre-Production\Eclipse EE\CarWash2\src\main\java\controller\ShowingAllOrders.java
+D:\EPAM Pre-Production\Eclipse EE\CarWash2\src\main\java\dao\GenericDao.java
+D:\EPAM Pre-Production\Eclipse EE\CarWash2\src\main\java\dao\jdbc\mysql\MySqlOrdersDao.java
+D:\EPAM Pre-Production\Eclipse EE\CarWash2\src\main\java\dao\OrdersDao.java
+D:\EPAM Pre-Production\Eclipse EE\CarWash2\src\main\java\dao\jdbc\mysql\MySqlJdbcDaoFactory.java
+D:\EPAM Pre-Production\Eclipse EE\CarWash2\src\main\java\entities\Orders.java
+D:\EPAM Pre-Production\Eclipse EE\CarWash2\src\main\java\services\OrdersService.java
+D:\EPAM Pre-Production\Eclipse EE\CarWash2\src\main\java\controller\OldController.java
+D:\EPAM Pre-Production\Eclipse EE\CarWash2\src\main\java\dao\DaoFactory.java

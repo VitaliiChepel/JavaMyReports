@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[</br>Test passed: Wed Nov 02 10:41:37 EET 2016[Boolean Group][classes.BooleanTest][isPos]. Status <1>. Time duration <2004>.]]>
+    </line>
+    <line>
+      <![CDATA[</br>Test passed: Wed Nov 02 10:41:37 EET 2016[Boolean Group][classes.BooleanTest][isNegat]. Status <1>. Time duration <2004>.]]>
+    </line>
+    <line>
+      <![CDATA[</br>Test passed: Wed Nov 02 10:41:37 EET 2016[Boolean Group][classes.BooleanTest][isPos]. Status <1>. Time duration <2004>.]]>
+    </line>
+    <line>
+      <![CDATA[</br>Test passed: Wed Nov 02 10:41:37 EET 2016[Boolean Group][classes.BooleanTest][isNegat]. Status <1>. Time duration <2004>.]]>
+    </line>
+  </reporter-output>
+  <suite name="boolean" duration-ms="2596" started-at="2016-11-02T08:41:34Z" finished-at="2016-11-02T08:41:37Z">
+    <groups>
+      <group name="boolean">
+        <method signature="BooleanTest.isNegat(long)[pri:0, instance:classes.BooleanTest@13b6d03]" name="isNegat" class="classes.BooleanTest"/>
+        <method signature="BooleanTest.isPos(long)[pri:0, instance:classes.BooleanTest@13b6d03]" name="isPos" class="classes.BooleanTest"/>
+      </group> <!-- boolean -->
+    </groups>
+    <test name="Boolean Group" duration-ms="2596" started-at="2016-11-02T08:41:34Z" finished-at="2016-11-02T08:41:37Z">
+      <class name="classes.BooleanTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:classes.BooleanTest@13b6d03]" name="SetUp" is-config="true" duration-ms="39" started-at="2016-11-02T10:41:34Z" finished-at="2016-11-02T10:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="isPos(long)[pri:0, instance:classes.BooleanTest@13b6d03]" name="isPos" duration-ms="2004" started-at="2016-11-02T10:41:35Z" data-provider="createFromExcelLong" finished-at="2016-11-02T10:41:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[</br>Test passed: Wed Nov 02 10:41:37 EET 2016[Boolean Group][classes.BooleanTest][isPos]. Status <1>. Time duration <2004>.]]>
+            </line>
+            <line>
+              <![CDATA[</br>Test passed: Wed Nov 02 10:41:37 EET 2016[Boolean Group][classes.BooleanTest][isPos]. Status <1>. Time duration <2004>.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- isPos -->
+        <test-method status="PASS" signature="isNegat(long)[pri:0, instance:classes.BooleanTest@13b6d03]" name="isNegat" duration-ms="2004" started-at="2016-11-02T10:41:35Z" data-provider="createFromExcelLong" finished-at="2016-11-02T10:41:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[</br>Test passed: Wed Nov 02 10:41:37 EET 2016[Boolean Group][classes.BooleanTest][isNegat]. Status <1>. Time duration <2004>.]]>
+            </line>
+            <line>
+              <![CDATA[</br>Test passed: Wed Nov 02 10:41:37 EET 2016[Boolean Group][classes.BooleanTest][isNegat]. Status <1>. Time duration <2004>.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- isNegat -->
+      </class> <!-- classes.BooleanTest -->
+    </test> <!-- Boolean Group -->
+  </suite> <!-- boolean -->
+</testng-results>

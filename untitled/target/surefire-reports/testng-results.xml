@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="32" started-at="2016-10-31T12:58:08Z" finished-at="2016-10-31T12:58:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="32" started-at="2016-10-31T12:58:08Z" finished-at="2016-10-31T12:58:08Z">
+      <class name="Test1">
+        <test-method status="PASS" signature="init()[pri:0, instance:Test1@4cdbe50f]" name="init" is-config="true" duration-ms="10" started-at="2016-10-31T14:58:08Z" finished-at="2016-10-31T14:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:Test1@4cdbe50f]" name="sum" duration-ms="5" started-at="2016-10-31T14:58:08Z" finished-at="2016-10-31T14:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- Test1 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

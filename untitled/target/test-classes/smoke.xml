@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeTest" parallel="methods" thread-count="3">
+
+    <listeners>
+        <listener class-name="classes.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Smoke Group">
+        <groups>
+
+            <run>
+
+                <include name = "smoke"/>
+
+            </run>
+
+        </groups>
+
+        <classes>
+
+            <class name="classes.MultDivPowSqrtTest">
+            </class>
+            <class name="classes.SumSubTest">
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

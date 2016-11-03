@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TrigonometryTest" >
+
+    <listeners>
+        <listener class-name="classes.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Trigonometry Group">
+        <groups>
+
+            <run>
+                <include name = "trigonometry"/>
+            </run>
+
+        </groups>
+
+        <classes>
+            <class name="classes.TrigonometryTest">
+                <methods>
+                    <include name="cos"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

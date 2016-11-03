@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Group Test"  >
+    <listeners>
+        <listener class-name="classes.listeners.TestListener"/>
+    </listeners>
+
+    <test name= "NegativeTests">
+        <groups>
+            <run>
+                <include name = "negative"/>
+
+            </run>
+        </groups>
+
+        <classes>
+
+            <class name="classes.NegativeTests"/>
+
+        </classes>
+    </test>
+
+    </suite>
+
+
